@@ -15,4 +15,13 @@ This project leverages OpenAI's GPT models to automatically generate and execute
 ---
 
 ## 📂 Project Structure
-
+sql/
+├── utils/
+│ ├── db_schema_loader.py # Loads SQL schema from file
+│ └── query_validator.py # Validates SQL syntax
+├── schema/
+│ └── sample_schema.sql # Example schema used for query generation
+├── .env # Stores OpenAI API key and model name
+├── main.py # Main script for query generation & execution
+├── README.md # Project documentation
+└── sample.db # SQLite database (optional/test)
