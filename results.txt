@@ -1,0 +1,5 @@
+Generated SQL Query:
+SELECT * FROM products;
+
+Query Results:
+[(1, 'Laptop', 'Electronics', 999.99), (2, 'Mouse', 'Electronics', 25.5), (3, 'Book', 'Stationery', 15.0), (4, 'Desk', 'Furniture', 150.0)]
